@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_atoi.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: fel-abbo <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: fel-abbo <fel-abbo@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/11/06 11:39:57 by fel-abbo          #+#    #+#             */
-/*   Updated: 2023/11/13 16:14:49 by fel-abbo         ###   ########.fr       */
+/*   Created: 2023/12/07 18:06:00 by fel-abbo          #+#    #+#             */
+/*   Updated: 2023/12/07 18:08:26 by fel-abbo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -42,7 +42,7 @@ int	ft_atoi(const char *str)
 	return (result * negative);
 }
 /*
-int	main()
+int	main(void)
 {
 	printf("%d\n", ft_atoi("      --+-+---+--420dq124"));
 	printf("%d\n", ft_atoi("12345"));
